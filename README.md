@@ -1,17 +1,17 @@
 # Snake
 
-Dans le cadre de notre formation au sein du campus Ynov Lyon, nous avons développé le jeux Snake en js.
+Dans le cadre de notre formation au sein du campus Ynov Lyon, nous avons développé le jeu Snake en js.
 
 ## Pour commencer
-N'hésitez pas a clone le projet.
+N'hésitez pas à clone le projet.
 
 ## Pré-requis
 -Visual Studio code\
 -Extension Live Server
 
 ## Démarage
-Une fois les prérequis installer et le projet cloné:\
-Lancer le projet avec live server en bas doite
+Une fois les prérequis installés et le projet cloné:\
+Lancer le projet avec live server en bas à doite
 
 Versions 1.0 
 
