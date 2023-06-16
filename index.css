@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}
+
+#playground {
+    background-image: url('https://upload.wikimedia.org/wikipedia/fr/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    width: 100vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+    border: 3px solid white;
+}
+
+.snake {
+    background-image: url(./img/tenders.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: .25vmin solid black;
+}
+
+.snakeHead {
+    background-image: url(./img/golo.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.apple {
+    background-image: url(./img/manaise.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fin {
+    background-image: url('https://m.media-amazon.com/images/I/71c-vQQh8yL._SS500_.jpg');
+    background-size: cover;
+    width: 100vmin;
+    height: 90vmin;
+    z-index: 999;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+#fin {
+    background-color: black;
+    width: 100vmin;
+    height: 90vmin;
+    z-index: 999;
+    position: absolute;
+    display: none;
+}
+
+.btn {
+    background-color: white;
+    z-index: 999;
+    margin-top: 45%;
+    margin-left: 45%;
+}
